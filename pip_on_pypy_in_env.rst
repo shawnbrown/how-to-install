@@ -2,7 +2,7 @@
 Installing ``pip`` for ``pypy`` in a Development Environment
 ============================================================
 
-These instructions assume use of a conda/miniconda enviromnt
+These instructions assume the use of a conda/miniconda environment
 but a venv/virtualenv envirment should work as well (adjust
 directory references as appropriate).
 
