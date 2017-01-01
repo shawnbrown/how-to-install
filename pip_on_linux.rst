@@ -1,6 +1,6 @@
 
 .. meta::
-    :description: Instructions for installing pip on Linux.
+    :description: How to install pip on Linux.
     :keywords: how to install pip, from source, linux
     :author: Shawn Brown
 
@@ -38,8 +38,8 @@ comands:
     $ cd ..
 
 
-2. Install ``pip``, itself
-==========================
+2. Install ``pip`` itself
+=========================
 
 Once the requirement is satisfied, install pip from source:
 
