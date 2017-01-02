@@ -148,36 +148,36 @@ environment), you must use an account with administrator permissions
 (enabled with *"sudo su -"* below). Additional *"rm ..."* commands are
 included to keep the root environment tidy:
 
-.. code-block:: bash
+.. code-block::
 
     $ sudo su -
 
-    ~# wget https://pypi.python.org/packages/b0/04/d7aac18d0d8b1b9bd9b88af02af8090e72653753bced3226f9903cabb991/setuptools-32.3.0.zip
-    ~# unzip setuptools-32.3.0.zip
-    ~# cd setuptools-32.3.0
-    ~# python2.7 setup.py install
-    ~# cd ..
+    # wget https://pypi.python.org/packages/b0/04/d7aac18d0d8b1b9bd9b88af02af8090e72653753bced3226f9903cabb991/setuptools-32.3.0.zip
+    # unzip setuptools-32.3.0.zip
+    # cd setuptools-32.3.0
+    # python2.7 setup.py install
+    # cd ..
 
-    ~# wget https://pypi.python.org/packages/11/b6/abcb525026a4be042b486df43905d6893fb04f05aac21c32c638e939e447/pip-9.0.1.tar.gz
-    ~# tar -vzxf pip-9.0.1.tar.gz
-    ~# cd pip-9.0.1
-    ~# python2.7 setup.py install
-    ~# cd ..
+    # wget https://pypi.python.org/packages/11/b6/abcb525026a4be042b486df43905d6893fb04f05aac21c32c638e939e447/pip-9.0.1.tar.gz
+    # tar -vzxf pip-9.0.1.tar.gz
+    # cd pip-9.0.1
+    # python2.7 setup.py install
+    # cd ..
 
-    ~# rm ./setuptools-32.3.0.zip
-    ~# rm ./pip-9.0.1.tar.gz
-    ~# rm -r ./setuptools-32.3.0
-    ~# rm -r ./pip-9.0.1
-    ~# exit
+    # rm ./setuptools-32.3.0.zip
+    # rm ./pip-9.0.1.tar.gz
+    # rm -r ./setuptools-32.3.0
+    # rm -r ./pip-9.0.1
+    # exit
 
 Once pip is set up, we can install the ``requests`` package with the
 following commands:
 
-.. code-block:: bash
+.. code-block::
 
     $ sudo su -
-    ~# python2.7 -m pip install requests
-    ~# exit
+    # python2.7 -m pip install requests
+    # exit
 
 
 Installation Log
