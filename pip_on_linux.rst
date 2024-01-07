@@ -139,6 +139,42 @@ following commands:
     $ pypy3 -m pip install requests
 
 
+
+For Python 2.6 Installed Directly on the System
+-----------------------------------------------
+
+setuptools 36.8.0 (last version to support Python 2.6):
+  https://files.pythonhosted.org/packages/b8/04/be569e393006fa9a2c10ef72ea33133c2902baa115dd1d4279dae55c3b3b/setuptools-36.8.0.zip
+
+
+pip 9.0.3 (last version to support Python 2.6):
+  https://files.pythonhosted.org/packages/c4/44/e6b8056b6c8f2bfd1445cc9990f478930d8e3459e9dbf5b8e2d2922d64d3/pip-9.0.3.tar.gz
+
+
+.. code-block::
+
+    $ sudo su -
+
+    # wget https://files.pythonhosted.org/packages/b8/04/be569e393006fa9a2c10ef72ea33133c2902baa115dd1d4279dae55c3b3b/setuptools-36.8.0.zip
+    # unzip setuptools-36.8.0.zip
+    # cd setuptools-36.8.0
+    # python2.6 setup.py install
+    # cd ..
+
+    # wget https://files.pythonhosted.org/packages/c4/44/e6b8056b6c8f2bfd1445cc9990f478930d8e3459e9dbf5b8e2d2922d64d3/pip-9.0.3.tar.gz
+    # tar -vzxf pip-9.0.3.tar.gz
+    # cd pip-9.0.3
+    # python2.6 setup.py install
+    # cd ..
+
+    # rm ./setuptools-36.8.0.zip
+    # rm ./pip-9.0.3.tar.gz
+    # rm -rf ./setuptools-36.8.0
+    # rm -rf ./pip-9.0.3
+    # exit
+
+
+
 For Python 2.7 Installed Directly on the System
 -----------------------------------------------
 
